@@ -1,0 +1,16 @@
+#!/usr/bin/python3
+
+"""use external import."""
+
+from add_0 import add
+
+
+def doAdd():
+    """Add 2 numbers."""
+    a = 1
+    b = 2
+    print(f"{a} + {b} = {add(a, b)}")
+
+
+if __name__ == "__main__":
+    doAdd()
