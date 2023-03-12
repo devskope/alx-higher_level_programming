@@ -1,7 +1,5 @@
 #!/usr/bin/python3
-
-"""use external import."""
-
+"""Print sum of args."""
 from add_0 import add
 
 
