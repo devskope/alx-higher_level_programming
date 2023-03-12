@@ -1,17 +1,10 @@
 #!/usr/bin/python3
-"""Import calculator."""
-from calculator_1 import add, sub, mul, div
+if __name__ == "__main__":
+    from calculator_1 import add, sub, mul, div
 
-
-def calculate():
-    """Use calculator functions."""
     a = 10
     b = 5
-    print(f'{a} + {b} = {add(a, b)}')
-    print(f'{a} - {b} = {sub(a, b)}')
-    print(f'{a} * {b} = {mul(a, b)}')
-    print(f'{a} / {b} = {div(a, b)}')
-
-
-if __name__ == "__main__":
-    calculate()
+    print('{:d} + {:d} = {:d}'.format(a, b, (add(a, b))))
+    print('{:d} - {:d} = {:d}'.format(a, b, (sub(a, b))))
+    print('{:d} * {:d} = {:d}'.format(a, b, (mul(a, b))))
+    print('{:d} / {:d} = {:d}'.format(a, b, (div(a, b))))
